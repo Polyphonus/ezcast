@@ -1,0 +1,28 @@
+You'll find here below the list of external products that are used for EZmanager. 
+Each product remains the entire property of its original author and keeps its original license.
+
+* ColorBox v1.3.17.2 under the MIT license, copyright Gabriel Bull <https://github.com/gavroche/php-browser>
+--> ./htdocs/css/colorbox.css
+--> ./htdocs/js/jquery.colorbox.js
+
+* Uploadify v2.1.4 under the MIT license, copyright Ronnie Garcia, Travis Nickels
+--> ./htdocs/css/uploadify.css
+--> ./htdocs/js/jquery.uploadify.v2.1.4.js
+--> ./htdocs/js/jquery.uploadify.v2.1.4.min.js
+--> ./htdocs/check.php
+
+* JQUERY 2.2.4 under the MIT license, copyright John Resig <http://jquery.org/license>,
+  including sizzle.js under the MIT license, copyright The Dojo Foundation <http://sizzlejs.com/>
+--> ./htdocs/js/jQuery/jquery-2.2.4.min.js
+
+* JQUERY SERIALSCROLL v1.2.2 under the MIT license, copyright Ariel Flesler <http://flesler.blogspot.com>
+--> ./htdocs/js/jQuery/jquery.serialScroll-min.js
+
+* JQUERY SCROLLTO v1.4.2 under the MIT license, copyright Ariel Flesler <http://flesler.blogspot.com>
+--> ./htdocs/js/jQuery/jquery.scrollTo-min.js
+
+* EASING EQUATION under the BSD license, copyright Robert Penner <http://gsgd.co.uk/sandbox/jquery/easing/>
+--> ./htdocs/js/jQuery/function.js
+
+* SWFOBJECT under the MIT license, copyright <http://code.google.com/p/swfobject/>  
+--> ./htdocs/js/swfobject.js

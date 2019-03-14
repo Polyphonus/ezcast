@@ -1,0 +1,111 @@
+/*
+* EZCAST EZmanager 
+*
+* Copyright (C) 2016 Université libre de Bruxelles
+*
+* Written by Michel Jansens <mjansens@ulb.ac.be>
+* 		    Arnaud Wijns <awijns@ulb.ac.be>
+*                   Antoine Dewilde
+* UI Design by Julien Di Pietrantonio
+*
+* This software is free software; you can redistribute it and/or
+* modify it under the terms of the GNU Lesser General Public
+* License as published by the Free Software Foundation; either
+* version 3 of the License, or (at your option) any later version.
+*
+* This software is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with this software; if not, write to the Free Software
+* Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+*/
+
+/*------------------------NEW CSS Help-------------*/
+
+#Bloc-ensemble{
+    margin-bottom: 100px;
+}
+
+.Helpnew {
+	margin-left:50px;
+	width:924px;
+	min-height:500px;
+}
+
+.Helpnew h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#004C93;
+	margin-bottom:10px;
+	margin-top:10px;
+	
+	
+}
+
+.Helpnew h2{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#999;
+	margin-bottom:10px;
+	margin-top:10px;
+
+}
+
+
+.Helpnew p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	line-height:17px;
+	text-align:justify;
+	margin-left:0px;
+	width:913px;
+	margin-bottom:5px;
+	margin-top:5px;
+	
+}
+
+.Helpnew ul li {
+        font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	line-height:17px;
+}
+
+.Helpnew a {
+	text-decoration:underline;
+		color:#004C93;
+}
+
+.Helpnew a:hover {
+	text-decoration:none;
+	color:#666;
+}
+	
+
+.surlignerBleuBold {
+	font-size:13px;
+	font-weight:bold;
+	color:#004C93;
+}
+	
+.red{
+    color: #990000;
+}
+	
+.pic img{
+	border: thin solid #999999;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+
+/*------------------------NEW CSS Help fin-------------*/
+
+

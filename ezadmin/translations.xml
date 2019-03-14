@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Description:
+        Message translations for all the user interface.
+--> 
+
+<data>
+    <!-- Labels are keywords that appear in templates 
+         Note: use the same label name as the keyword between ®'s that appears in the template -->
+    <labels>
+        <!-- Product-wise stuff --> 
+        <label id="service_name" lang="fr">EZadmin</label>
+        <label id="service_name" lang="en">EZadmin</label>
+        <label id="ezadmin_page_title" lang="fr">EZadmin</label>
+        <label id="ezadmin_page_title" lang="en">EZadmin</label>
+        <label id="service_description" lang="fr">Interface de gestion d'EZcast</label>
+        <label id="service_description" lang="en">EZcast management interface</label>
+        <label id="install_description" lang="fr">Interface d'installation d'EZcast</label>
+        <label id="install_description" lang="en">EZcast installation interface</label>
+        <label id="yes" lang="fr">Oui</label>
+        <label id="yes" lang="en">Yes</label>
+        <label id="no" lang="fr">Non</label>
+        <label id="no" lang="en">No</label>
+        <label id="Login" lang="fr">Netid</label>
+        <label id="Login" lang="en">Netid</label>
+        <label id="Password" lang="fr">Mot de passe</label>
+        <label id="Password" lang="en">Password</label>
+        
+        <!-- Menu options -->
+        <label id="list_official_courses" lang="fr">Liste cours officiels</label>
+        <label id="list_official_courses" lang="en">Official courses list</label>
+        <label id="list_courses" lang="fr">Liste cours</label>
+        <label id="list_courses" lang="en">Courses list</label>
+        <label id="origin" lang="fr">Origine</label>
+        <label id="origin" lang="en">Origin</label>
+        <label id="link_origin" lang="fr">Origine du lien</label>
+        <label id="link_origin" lang="en">Link origin</label>
+        <label id="list_additional_courses" lang="fr">Liste cours additionels</label>
+        <label id="list_additional_courses" lang="en">Additional courses list</label>
+        <label id="create_course" lang="fr">Créer cours</label>
+        <label id="create_course" lang="en">Create course</label>
+        <label id="create_user" lang="fr">Créer utilisateur</label>
+        <label id="create_user" lang="en">Create user</label>
+        <label id="user_infos" lang="fr">Infos utilisateur</label>
+        <label id="user_infos" lang="en">User infos</label>
+        <label id="author" lang="fr">Auteur</label>
+        <label id="author" lang="en">Author</label>
+        <label id="datetime" lang="fr">Date/heure</label>
+        <label id="datetime" lang="en">Date/time</label>
+        <label id="action" lang="fr">Opération</label>
+        <label id="action" lang="en">Operation</label>
+        <label id="message" lang="fr">Message</label>
+        <label id="message" lang="en">Message</label>
+        <label id="options" lang="fr">Options</label>
+        <label id="options" lang="en">Options</label>
+        <label id="list_classrooms" lang="fr">Liste auditoires</label>
+        <label id="list_classrooms" lang="en">Classroom list</label>
+        <label id="add_classroom" lang="fr">Ajouter auditoire</label>
+        <label id="add_classroom" lang="en">Add classroom</label>
+        <label id="classroom_logs" lang="fr">Historique</label>
+        <label id="classroom_logs" lang="en">Logs</label>
+        <label id="list_recorder_users" lang="fr">Liste utilisateurs</label>
+        <label id="list_recorder_users" lang="en">Users list</label>
+        <label id="new_recorder_user" lang="fr">Ajouter utilisateur</label>
+        <label id="new_recorder_user" lang="en">Add user</label>
+        <label id="config" lang="fr">Configurer</label>
+        <label id="config" lang="en">Configure</label>
+        <label id="admins" lang="fr">Changer administrateurs</label>
+        <label id="admins" lang="en">Edit admins</label>
+        <label id="list_recorder_admins" lang="fr">Liste administrateurs</label>
+        <label id="list_recorder_admins" lang="en">Admins list</label>
+        <label id="new_recorder_admin" lang="fr">Ajouter administrateur</label>
+        <label id="new_recorder_admin" lang="en">Add admin</label>
+        <label id="renderers_queue" lang="fr">Liste de jobs</label>
+        <label id="renderers_queue" lang="en">Job queue</label>
+         <label id="renderers_log" lang="fr">Derniers messages</label>
+        <label id="renderers_log" lang="en">Latest logs</label>
+        <label id="renderers_list" lang="fr">Liste renderers</label>
+        <label id="renderers_list" lang="en">Renderers list</label>
+        <label id="processing_stats" lang="fr">Traitements</label>
+        <label id="processing_stats" lang="en">Processings</label>
+        <label id="recorder_stats" lang="fr">Enregistreurs</label>
+        <label id="recorder_stats" lang="en">Recorders</label>
+        <label id="repository_stats" lang="fr">Dépôt</label>
+        <label id="repository_stats" lang="en">Repository</label>
+        <label id="courses_category" lang="fr">Cours</label>
+        <label id="courses_category" lang="en">Courses</label>
+        <label id="classrooms_category" lang="fr">Auditoires</label>
+        <label id="classrooms_category" lang="en">Classrooms</label>
+        <label id="recorders_category" lang="fr">Enregistreurs</label>
+        <label id="recorders_category" lang="en">Recorders</label>
+        <label id="ezadmin_category" lang="fr">EZadmin</label>
+        <label id="ezadmin_category" lang="en">EZadmin</label>
+        <label id="stats_category" lang="fr">Statistiques</label>
+        <label id="stats_category" lang="en">Stats</label>
+        <label id="renderers_category" lang="fr">Traitement</label>
+        <label id="renderers_category" lang="en">Rendering</label>
+        <label id="monitoring_category" lang="fr">Moniteur</label>
+        <label id="monitoring_category" lang="en">Monitor</label>
+        <label id="additional_options" lang="fr">Autres</label>
+        <label id="additional_options" lang="en">Misc</label>
+        <label id="logout" lang="fr">Déconnexion</label>
+        <label id="logout" lang="en">Log out</label>
+        <label id="search" lang="fr">Rechercher</label>
+        <label id="search" lang="en">Search</label>
+        <label id="reset" lang="fr">Effacer</label>
+        <label id="reset" lang="en">Reset</label>
+        <label id="logs" lang="fr">Historique administrateur</label>
+        <label id="logs" lang="en">Admin activity history</label>
+        <label id="stats_ezplayer_threads" lang="fr">Discussions</label>
+        <label id="stats_ezplayer_threads" lang="en">Discussions</label>
+        <label id="stats_ezplayer_bookmarks" lang="fr">Signets</label>
+        <label id="stats_ezplayer_bookmarks" lang="en">Bookmarks and TOC</label>
+        <label id="stats_view_report" lang="fr">Rapport automatisé</label>
+        <label id="stats_view_report" lang="en">Automated Report</label>
+        
+        <!-- Titles -->
+        <label id="list_courses_title" lang="fr">Liste des cours</label>
+        <label id="list_courses_title" lang="en">Course list</label>     
+        <label id="list_users_title" lang="fr">Liste des utilisateurs</label>
+        <label id="list_users_title" lang="en">User list</label>     
+        <label id="list_classrooms_title" lang="fr">Liste des locaux</label>
+        <label id="list_classrooms_title" lang="en">Room list</label>     
+        <label id="list_jobs_title" lang="fr">Liste des jobs</label>
+        <label id="list_jobs_title" lang="en">Jobs list</label>
+        <label id="list_event_title" lang="fr">Liste des events</label>
+        <label id="list_event_title" lang="en">Events list</label>
+        <label id="track_asset_title" lang="fr">Suivi des enregistrements</label>
+        <label id="track_asset_title" lang="en">Track Recording</label>
+        <label id="course_details_title" lang="fr">Détail du cours</label>
+        <label id="course_details_title" lang="en">Course information</label>
+        <label id="user_details_title" lang="fr">Détail de l'utilisateur</label>
+        <label id="user_details_title" lang="en">User information</label>
+        <label id="course_users_title" lang="fr">Utilisateurs associés</label>
+        <label id="course_users_title" lang="en">Linked users</label>
+        <label id="user_courses_title" lang="fr">Cours associés</label>
+        <label id="user_courses_title" lang="en">Linked courses</label>
+        <label id="ezadmin_edit_config_title" lang="fr">Modifier la configuration d'EZadmin</label>
+        <label id="ezadmin_edit_config_title" lang="en">Change EZadmin configuration</label>
+        <label id="admins_list_title" lang="fr">Liste d'accès à EZadmin</label>
+        <label id="admins_list_title" lang="en">EZadmin authorised users</label>
+        <label id="ezadmin_access_title" lang="fr">Accès à EZadmin</label>
+        <label id="ezadmin_access_title" lang="en">Can access EZadmin</label>
+        <label id="logs_title" lang="fr">Historique des opérations</label>
+        <label id="logs_title" lang="en">Logs</label>
+        <label id="classroom_calendar_title" lang="fr">Calendrier des enregistrements</label>
+        <label id="classroom_calendar_title" lang="en">Record calendar</label>
+        <label id="event_calendar_title" lang="fr">Calendrier des évènements</label>
+        <label id="event_calendar_title" lang="en">Errors calendar</label>
+        <label id="report_title" lang="fr">Rapport</label>
+        <label id="report_title" lang="en">Report</label>
+        <label id="ID" lang="fr">ID</label>
+        <label id="ID" lang="en">ID</label>
+        
+        
+        
+        <!-- Form fields -->
+        <label id="submit_button" lang="fr">Envoyer</label>
+        <label id="submit_button" lang="en">Submit</label>
+        <label id="course_code" lang="fr">Mnémonique</label>
+        <label id="course_code" lang="en">Course code</label>
+        <label id="course_name" lang="fr">Intitulé</label>
+        <label id="course_name" lang="en">Course name</label>
+        <label id="course_short_name" lang="fr">Intitulé alternatif</label>
+        <label id="course_short_name" lang="en">Alternative course name</label>
+        <label id="username" lang="fr">Nom d'utilisateur</label>
+        <label id="username" lang="en">Username</label>
+        <label id="forename" lang="fr">Prénom</label>
+        <label id="forename" lang="en">Forename</label>
+        <label id="surname" lang="fr">Nom de famille</label>
+        <label id="surname" lang="en">Surname</label>
+        <label id="fullname" lang="fr">Nom</label>
+        <label id="fullname" lang="en">Name</label>
+        <label id="teacher" lang="fr">Enseignant</label>
+        <label id="teacher" lang="en">Teacher</label>
+        <label id="academic_year" lang="fr">Année académique</label>
+        <label id="academic_year" lang="en">Academic year</label>
+        <label id="origin" lang="fr">Origine</label>
+        <label id="origin" lang="en">Origin</label>
+        <label id="intern" lang="fr">Interne</label>
+        <label id="intern" lang="en">Internal</label>
+        <label id="extern" lang="fr">Externe</label>
+        <label id="extern" lang="en">External</label>
+        <label id="albums" lang="fr">Albums</label>
+        <label id="albums" lang="en">Albums</label>
+        <label id="has_albums_title" lang="fr">A des albums</label>
+        <label id="has_albums_title" lang="en">Has albums</label>
+        <label id="is_admin_title" lang="fr">Administrateur</label>
+        <label id="is_admin_title" lang="en">Admin</label>
+        <label id="is_ezadmin_title" lang="fr">Administrateur d'EzAdmin</label>
+        <label id="is_ezadmin_title" lang="en">EzAdmin Admin</label>
+        <label id="is_admin" lang="fr">Oui</label>
+        <label id="is_admin" lang="en">Yes</label>
+        <label id="is_not_admin" lang="fr">Non</label>
+        <label id="is_not_admin" lang="en">No</label>
+        <label id="has_albums" lang="fr">Avec</label>
+        <label id="has_albums" lang="en">With</label>
+        <label id="no_albums" lang="fr">Sans</label>
+        <label id="no_albums" lang="en">Without</label>
+        <label id="recorders" lang="fr">En auditoire</label>
+        <label id="recorders" lang="en">In classroom</label>
+        <label id="in_recorders" lang="fr">Oui</label>
+        <label id="in_recorders" lang="en">Yes</label>
+        <label id="out_recorders" lang="fr">Non</label>
+        <label id="out_recorders" lang="en">No</label>
+        <label id="no_associated_users" lang="fr">Pas d'utilisateurs associés à ce cours.</label>
+        <label id="no_associated_users" lang="en">No users are linked to this course.</label>
+        <label id="no_associated_courses" lang="fr">Pas de cours associés à cet utilisateur.</label>
+        <label id="no_associated_courses" lang="en">No courses are linked to this user.</label>
+        <label id="remove_link" lang="fr">Supprimer lien</label>
+        <label id="remove_link" lang="en">Remove link</label>
+        <label id="add_user_course" lang="fr">Ajouter</label>
+        <label id="add_user_course" lang="en">Add user</label>
+        <label id="user_ID" lang="fr">Identifiant</label>
+        <label id="user_ID" lang="en">User ID</label>
+        <label id="room_ID" lang="fr">Numéro de local</label>
+        <label id="room_ID" lang="en">Room number</label>
+        <label id="room_IP" lang="fr">Adresse IP (maitre)</label>
+        <label id="room_IP" lang="en">IP address (master)</label>
+        <label id="room_remote_IP" lang="fr">Adresse IP (esclave)</label>
+        <label id="room_remote_IP" lang="en">IP address (slave)</label>
+        <label id="room_name" lang="fr">Nom du local</label>
+        <label id="room_name" lang="en">Room name</label>
+        <label id="room_enabled" lang="fr">Activé</label>
+        <label id="room_enabled" lang="en">Enabled</label>
+        <label id="room_alive" lang="fr">En ligne</label>
+        <label id="room_alive" lang="en">Online</label>
+        <label id="being_record" lang="fr">En cours d'enregistrement</label>
+        <label id="being_record" lang="en">Being Recorded</label>
+        <label id="only_online" lang="fr">Seulement ceux en ligne</label>
+        <label id="only_online" lang="en">Only online</label>
+        <label id="status_record_general" lang="fr">Information générales</label>
+        <label id="status_record_general" lang="en">General informations</label>
+        <label id="classroom_only_active" lang="fr">Uniquement les auditoires activé</label>
+        <label id="classroom_only_active" lang="en">Only activated classroom</label>
+        <label id="no_ping" lang="fr">Ne répond pas aux requêtes ping</label>
+        <label id="no_ping" lang="en">No answer to ping requests</label>
+        <label id="ssh_error" lang="fr">Ne répond pas aux requêtes ssh</label>
+        <label id="ssh_error" lang="en">No answer to ssh requests</label>
+        <label id="classrooms_recording_enabled" lang="fr">Activer la gestion des auditoires</label>
+        <label id="classrooms_recording_enabled" lang="en">Enable classroom management</label>
+        <label id="add_users_enabled" lang="fr">Autoriser l'ajout d'utilisateurs</label>
+        <label id="add_users_enabled" lang="en">Allow adding users</label>
+        <label id="password_storage_enabled" lang="fr">Mot de passe unique</label>
+        <label id="password_storage_enabled" lang="en">Unique password</label>
+        <label id="how_to_display_courses" lang="fr">Affichage des cours</label>
+        <label id="how_to_display_courses" lang="en">Display courses</label>
+        <label id="how_to_display_users" lang="fr">Affichage des utilisateurs</label>
+        <label id="how_to_display_users" lang="en">Display users</label>
+        <label id="enabled" lang="fr">Activé</label>
+        <label id="enabled" lang="en">Enabled</label>
+        <label id="disabled" lang="fr">Désactivé</label>
+        <label id="disabled" lang="en">Disabled</label>
+        <label id="display_course_by_code" lang="fr">Par code</label>
+        <label id="display_course_by_code" lang="en">By code</label>
+        <label id="display_course_by_name" lang="fr">Par nom</label>
+        <label id="display_course_by_name" lang="en">By name</label>
+        <label id="display_users_by_ID" lang="fr">Par identifiant</label>
+        <label id="display_users_by_ID" lang="en">By ID</label>
+        <label id="display_users_by_name" lang="fr">Par nom</label>
+        <label id="display_users_by_name" lang="en">By name</label>
+        <label id="enable_disable" lang="fr">(Dés)activer</label>
+        <label id="enable_disable" lang="en">Enable/Disable</label>
+        <label id="enable" lang="fr">Activer</label>
+        <label id="enable" lang="en">Enable</label>
+        <label id="disable" lang="fr">Désactiver</label>
+        <label id="disable" lang="en">Disable</label>
+        <label id="edit" lang="fr">Sauvegarder</label>
+        <label id="edit" lang="en">Save changes</label>
+        <label id="edit_button" lang="fr">Editer</label>
+        <label id="edit_button" lang="en">Edit</label>
+        <label id="unlink_confirm" lang="fr">Etes vous sur de vouloir supprimer ce lien ?</label>
+        <label id="unlink_confirm" lang="en">Are you sure you want to delete this link?</label>
+        <label id="cannot_delete_external" lang="fr">Vous ne pouvez pas supprimer un lien externe.</label>
+        <label id="cannot_delete_external" lang="en">You cannot delete a external link.</label>
+        <label id="link_error" lang="fr">Utilisateur inconnu ou déjà présent.</label>
+        <label id="link_error" lang="en">Unknown user or already present.</label>        
+        <label id="remove_admin" lang="fr">Enlever l'accès</label>
+        <label id="remove_admin" lang="en">Remove access</label>
+        <label id="add_admin" lang="fr">Ajouter</label>
+        <label id="add_admin" lang="en">Add</label>
+        <label id="remove_admin_confirm" lang="fr">Etes-vous sûr?</label>
+        <label id="remove_admin_confirm" lang="en">Are you sure?</label>
+        <label id="cannot_delete_admin" lang="fr">Erreur. Suppression annulée.</label>
+        <label id="cannot_delete_admin" lang="en">Error. Deletion cancelled.</label>
+        <label id="add_admin_error" lang="fr">Utilisateur inconnu ou déjà présent.</label>
+        <label id="add_admin_error" lang="en">Unkown user or already present.</label>
+        <label id="create" lang="fr">Valider</label>
+        <label id="create" lang="en">Create</label>
+        <label id="continue" lang="fr">Suivant</label>
+        <label id="continue" lang="en">Next</label>
+        <label id="previous" lang="fr">Précédent</label>
+        <label id="previous" lang="en">Previous</label>
+        <label id="today" lang="fr">Aujourd'hui</label>
+        <label id="today" lang="en">Today</label> 
+        <label id="skip" lang="fr">Ignorer les tests</label>
+        <label id="skip" lang="en">Skip tests</label>
+        <label id="finish" lang="fr">Terminer</label>
+        <label id="finish" lang="en">Finish</label>
+        <label id="retry" lang="fr">Réessayer</label>
+        <label id="retry" lang="en">Retry</label>
+        <label id="password" lang="fr">Mot de passe</label>
+        <label id="password" lang="en">Password</label>   
+        <label id="delete" lang="fr">Supprimer</label>   
+        <label id="delete" lang="en">Delete</label>        
+        <label id="push_changes" lang="fr">Envoyer changements</label>   
+        <label id="push_changes" lang="en">Push changes</label>        
+        <label id="push_changes_title" lang="fr">Envoyer changements aux recorders et au manager</label>   
+        <label id="push_changes_title" lang="en">Push changes to recorders and manager</label>        
+        <label id="sync_externals" lang="fr">Synchro externes</label>   
+        <label id="sync_externals" lang="en">Sync externals</label>   
+        <label id="db_updater" lang="en">DB Updater</label>   
+        <label id="db_updater" lang="fr">Mise à jour DB</label>            
+        <label id="unsaved_changes" lang="fr">non-sauvegardé</label>   
+        <label id="unsaved_changes" lang="en">unsaved changes</label>  
+        <label id="teacher_assign" lang="fr">Avec prof</label>  
+        <label id="teacher_assign" lang="en">With prof</label>
+        <label id="with_teacher" lang="fr">Oui</label>  
+        <label id="with_teacher" lang="en">Yes</label>    
+        <label id="without_teacher" lang="fr">Non</label>
+        <label id="without_teacher" lang="en">No</label>
+        <label id="users_category" lang="fr">Utilisateurs</label>  
+        <label id="users_category" lang="en">Users</label>  
+        <label id="list_users" lang="fr">Liste utilisateurs</label>  
+        <label id="list_users" lang="en">User list</label>
+        <label id="room_enable_error" lang="fr">Impossible de changer l'état de cet auditoire.</label>
+        <label id="room_enable_error" lang="en">Impossible to change the state of this room.</label>
+        <label id="recorder_passwd" lang="fr">Mot de passe interne</label>
+        <label id="recorder_passwd" lang="en">Recorder password</label>
+        <label id="date_start" lang="fr">Après (YYYY-MM-dd)</label>
+        <label id="date_start" lang="en">After (YYYY-MM-dd)</label>
+        <label id="date_end" lang="fr">Avant (YYYY-MM-dd)</label>
+        <label id="date_end" lang="en">Before (YYYY-MM-dd)</label>
+        <label id="from_date" lang="fr">De</label>
+        <label id="from_date" lang="en">From</label>
+        <label id="to_date" lang="fr">A</label>
+        <label id="to_date" lang="en">To</label>
+        <label id="loading" lang="fr">Chargement</label>
+        <label id="loading" lang="en">Loading</label>
+        <label id="table" lang="fr">Catégorie</label>
+        <label id="table" lang="en">Category</label>
+        <label id="table_users" lang="fr">Utilisateurs</label>
+        <label id="table_users" lang="en">Users</label>
+        <label id="table_courses" lang="fr">Cours</label>
+        <label id="table_courses" lang="en">Courses</label>
+        <label id="table_users_courses" lang="fr">Associations cours-utilisateur</label>
+        <label id="table_users_courses" lang="en">Links between courses and users</label>
+        <label id="table_classrooms" lang="fr">Auditoires</label>
+        <label id="table_classrooms" lang="en">Classrooms</label>
+        <label id="table_all" lang="fr">Toutes les opérations</label>
+        <label id="table_all" lang="en">All operations</label>
+        <label id="job_priority" lang="fr">Priorité</label>
+        <label id="job_priority" lang="en">Priority</label>
+        <label id="job_submit_date" lang="fr">Date de soumission</label>
+        <label id="job_submit_date" lang="en">Submit date</label>
+        <label id="job_origin" lang="fr">Origine</label>
+        <label id="job_origin" lang="en">Origin</label>
+        <label id="job_author" lang="fr">Auteur</label>
+        <label id="job_author" lang="en">Author</label>
+        <label id="job_renderer" lang="fr">Renderer</label>
+        <label id="job_renderer" lang="en">Renderer</label>
+        <label id="job_details" lang="fr">Status</label>
+        <label id="job_details" lang="en">Status</label>
+        <label id="job_duration" lang="fr">Durée</label>
+        <label id="job_duration" lang="en">Duration</label>
+        <label id="job_actions" lang="fr">Actions</label>
+        <label id="job_actions" lang="en">Actions</label>
+        <label id="job_not_current" lang="fr">Aucun job en cours actuellement</label>
+        <label id="job_not_current" lang="en">No job currently</label>
+        <label id="renderer_name" lang="fr">Nom</label>
+        <label id="renderer_name" lang="en">Name</label>
+        <label id="renderer_address" lang="fr">Adresse du serveur</label>
+        <label id="renderer_address" lang="en">Server address</label>
+        <label id="renderer_user" lang="fr">Nom utilisateur</label>
+        <label id="renderer_user" lang="en">User name</label>
+        <label id="renderer_enabled" lang="fr">Activé</label>
+        <label id="renderer_enabled" lang="en">Enabled</label>
+        <label id="renderer_hostname" lang="fr">Nom d'hôte</label>
+        <label id="renderer_hostname" lang="en">Hostname</label>
+        <label id="renderer_php" lang="fr">PHP (cli)</label>
+        <label id="renderer_php" lang="en">PHP (cli)</label>
+        <label id="renderer_pgm" lang="fr">Encoder program</label>
+        <label id="renderer_pgm" lang="en">Encoder program</label>
+        <label id="renderer_ffmpeg" lang="fr">FFMPEG path</label>
+        <label id="renderer_ffmpeg" lang="en">FFMPEG path</label>
+        <label id="renderer_ffprobe" lang="fr">FFPROBE path</label>
+        <label id="renderer_ffprobe" lang="en">FFPROBE path</label>
+        <label id="renderer_root_path" lang="fr">Racine EZrenderer</label>
+        <label id="renderer_root_path" lang="en">EZrenderer root path</label>
+        <label id="renderer_jobs" lang="fr">Jobs</label>
+        <label id="renderer_jobs" lang="en">Jobs</label>
+        <label id="renderer_status" lang="fr">Status</label>
+        <label id="renderer_status" lang="en">Status</label>
+        <label id="renderer_performance_idx" lang="fr">Index</label>
+        <label id="renderer_performance_idx" lang="en">Index</label>
+        <label id="renderer_load" lang="fr">Charge</label>
+        <label id="renderer_load" lang="en">Load</label>
+        <label id="renderer_threads" lang="fr">Threads/job</label>
+        <label id="renderer_threads" lang="en">Threads/job</label>
+        <label id="renderer_enable_error" lang="fr">Impossible d'activer le renderer</label>
+        <label id="renderer_enable_error" lang="en">Could not activate the renderer</label>
+        <label id="finished_on" lang="fr">Job terminé: </label>
+        <label id="finished_on" lang="en">Finished on</label>
+        <label id="sent_on" lang="fr">Job envoyé: </label>
+        <label id="sent_on" lang="en">Sent on</label>
+        <label id="created_on" lang="fr">Job créé: </label>
+        <label id="created_on" lang="en">Created on</label>
+        <label id="processing" lang="fr">En traitement</label>
+        <label id="processing" lang="en">Processing</label>
+        <label id="waiting" lang="fr">En attente</label>
+        <label id="waiting" lang="en">Waiting</label>
+        <label id="finished" lang="fr">Terminé</label>
+        <label id="finished" lang="en">Finished</label>
+        <label id="frozen" lang="fr">Arrêté</label>
+        <label id="frozen" lang="en">Frozen</label>
+        <label id="increase_priority" lang="fr">Augmenter la priorité</label>
+        <label id="increase_priority" lang="en">Increase priority</label>
+        <label id="decrease_priority" lang="fr">Diminuer la priorité</label>
+        <label id="decrease_priority" lang="en">Decrease priority</label>
+        <label id="freeze_job" lang="fr">Arrêter le job</label>
+        <label id="freeze_job" lang="en">Freeze job</label>
+        <label id="unfreeze_job" lang="fr">Continuer le job</label>
+        <label id="unfreeze_job" lang="en">Unfreeze job</label>
+        <label id="kill_job" lang="fr">Tuer le job</label>
+        <label id="kill_job" lang="en">Kill job</label>
+        <label id="classroom_id" lang="fr">Identifiant</label>
+        <label id="classroom_id" lang="en">Room ID</label>
+        <label id="classroom_name" lang="fr">Nom</label>
+        <label id="classroom_name" lang="en">Name</label>
+        <label id="classroom_ip" lang="fr">IP (maitre)</label>
+        <label id="classroom_ip" lang="en">IP (master)</label>
+        <label id="classroom_remote_ip" lang="fr">[IP (esclave)]</label>
+        <label id="classroom_remote_ip" lang="en">[IP (slave)]</label>
+        <label id="classroom_enabled" lang="fr">Activé</label>
+        <label id="classroom_enabled" lang="en">Activate</label>
+        <label id="classroom_ignore_ssh_check" lang="fr">Ignorer check SSH</label>
+        <label id="classroom_ignore_ssh_check" lang="en">Ignore SSH check</label>
+        <label id="classroom_record_cam" lang="fr">Cam</label>
+        <label id="classroom_record_cam" lang="en">Cam</label>
+        <label id="classroom_record_slide" lang="fr">Slide</label>
+        <label id="classroom_record_slide" lang="en">Slide</label>
+        <label id="classroom_view_log" lang="fr">Voir les logs</label>
+        <label id="classroom_view_log" lang="en">View log</label>
+        <label id="create_classroom" lang="fr">Créer auditoire</label>
+        <label id="create_classroom" lang="en">Create classroom</label>     
+        <label id="create_renderer" lang="fr">Créer renderer</label>
+        <label id="create_renderer" lang="en">Create renderer</label>      
+        <label id="create_renderer_step_1" lang="fr">Créer renderer</label>
+        <label id="create_renderer_step_1" lang="en">Create renderer</label>      
+        <label id="create_renderer_step_2" lang="fr">Créer renderer > Configuration SSH</label>
+        <label id="create_renderer_step_2" lang="en">Create renderer > SSH configuration</label>   
+        <label id="create_renderer_step_3" lang="fr">Créer renderer > Informations supplémentaires</label>
+        <label id="create_renderer_step_3" lang="en">Create renderer > Additional information</label>   
+        <label id="create_renderer_step_4" lang="fr">Créer renderer > Installation</label>
+        <label id="create_renderer_step_4" lang="en">Create renderer > Installation</label>        
+        <label id="cancel" lang="fr">Annuler</label>
+        <label id="cancel" lang="en">Cancel</label>
+        <label id="delete_confirm" lang="fr">Etes vous sûr de vouloir supprimer cet élément ?</label>
+        <label id="delete_confirm" lang="en">Are you sure you want to delete this item ?</label>
+        <label id="unknown_user" lang="fr">n'est pas un utilisateur valide. Essaye encore.</label>
+        <label id="unknown_user" lang="en">is not a valid user. Try again.</label>
+        <label id="room_delete_error" lang="fr">Une erreur est survenue lors de la suppression de l'auditoire.</label>
+        <label id="room_delete_error" lang="en">An error has occured during the classroom deletion.</label>
+        <label id="renderer_enable_error" lang="fr">Impossible de changer l'état de ce renderer.</label>
+        <label id="renderer_enable_error" lang="en">Impossible to change the state of this renderer.</label>
+        <label id="renderer_delete_error" lang="fr">Une erreur est survenue lors de la suppression du renderer.</label>
+        <label id="renderer_delete_error" lang="en">An error has occured during the renderer deletion.</label>
+        <label id="renderer_delete" lang="fr">Vous pouvez désormais supprimer les fichiers d'EZrenderer sur le serveur distant (renderer).</label>
+        <label id="renderer_delete" lang="en">You can now delete EZrenderer files on the remote server (renderer).</label>
+        <label id="leave_empty_field" lang="fr">Laisser le champs vide pour conserver le mot de passe</label>
+        <label id="leave_empty_field" lang="en">Leave empty field to keep the previous password</label>
+        <label id="monit_classroom" lang="fr">Auditoire</label>
+        <label id="monit_classroom" lang="en">Classroom</label>
+        <label id="monit_author" lang="fr">Auteur</label>
+        <label id="monit_author" lang="en">Author</label>
+        <label id="monit_courses" lang="fr">Cours</label>
+        <label id="monit_courses" lang="en">Courses</label>
+        <label id="monit_context" lang="fr">Contexte</label>
+        <label id="monit_context" lang="en">Context</label>
+        <label id="monit_record_type" lang="fr">C/S</label>
+        <label id="monit_record_type" lang="en">Record Type</label>
+        <label id="monit_event_date" lang="fr">Date</label>
+        <label id="monit_event_date" lang="en">Date</label>
+        <label id="monit_status_date" lang="fr">Date du statut</label>
+        <label id="monit_status_date" lang="en">Status date</label>
+        <label id="monit_log_level" lang="fr">LogLevel</label>
+        <label id="monit_log_level" lang="en">LogLevel</label>
+        <label id="monit_message" lang="fr">Message</label>
+        <label id="monit_message" lang="en">Message</label>
+        <label id="monit_asset" lang="fr">Asset</label>
+        <label id="monit_asset" lang="en">Asset</label>
+        <label id="monit_origin" lang="fr">Origine</label>
+        <label id="monit_origin" lang="en">Origin</label>
+        <label id="monit_type_id" lang="fr">Type</label>
+        <label id="monit_type_id" lang="en">Type</label>
+        <label id="monit_status" lang="fr">Statut</label>
+        <label id="monit_status" lang="en">Status</label>
+        <label id="monit_view_all" lang="fr">Voir tous les résultats</label>
+        <label id="monit_view_all" lang="en">View all results</label>
+        <label id="monit_parent_define" lang="fr">Définir le parent</label>
+        <label id="monit_parent_define" lang="en">Define parent</label>
+        <label id="monit_parent_asset" lang="fr">Asset étant le parent</label>
+        <label id="monit_parent_asset" lang="en">Parent asset name</label>
+        <label id="monit_status_change" lang="fr">Changer le statut</label>
+        <label id="monit_status_change" lang="en">Change status</label>
+        <label id="monit_select_loglevel" lang="fr">Selectionner le LogLevel</label>
+        <label id="monit_select_loglevel" lang="en">Select LogLevel</label>
+        <label id="monit_select_status" lang="fr">Selectionner le statut</label>
+        <label id="monit_select_status" lang="en">Select Status</label>
+        <label id="monit_error_param" lang="fr">Une erreur c'est produite avec les paramètres</label>
+        <label id="monit_error_param" lang="en">An error occured with parameters</label>
+        <label id="monit_nbr_week" lang="fr">Nombre de semaines</label>
+        <label id="monit_nbr_week" lang="en">Number of weeks</label>
+        <label id="classroom_not_display_date" lang="fr">Les assets suivants ne sont pas être affiché car ils 
+            s'étalent sur plusieurs jours: </label>
+        <label id="classroom_not_display_date" lang="en">The following assets can not be displayed because 
+            they are spread over several days: </label>
+        <label id="classroom_not_display_short_record" lang="fr">Les assets suivants ne sont pas être affiché car ils 
+            sont trop courts: </label>
+        <label id="classroom_not_display_short_record" lang="en">The following assets can not be displayed because 
+            they are too small: </label>
+        <label id="calendar_no_result" lang="fr">Aucun résultat à afficher</label>
+        <label id="calendar_no_result" lang="en">No result</label>
+        
+            
+        <!-- Calendar informations -->
+        <label id="calendar_year" lang="fr">Année</label>
+        <label id="calendar_year" lang="en">Year</label>
+        <label id="calendar_month" lang="fr">Mois</label>
+        <label id="calendar_month" lang="en">Month</label>
+        <label id="calendar_week" lang="fr">Semaine</label>
+        <label id="calendar_week" lang="en">Week</label>
+        <label id="calendar_day" lang="fr">Jour</label>
+        <label id="calendar_day" lang="en">Day</label>
+        <label id="calendar_monday" lang="fr">Lundi</label>
+        <label id="calendar_monday" lang="en">Monday</label>
+        <label id="calendar_tuesday" lang="fr">Mardi</label>
+        <label id="calendar_tuesday" lang="en">Tuesday</label>
+        <label id="calendar_wednesday" lang="fr">Mercredi</label>
+        <label id="calendar_wednesday" lang="en">Wednesday</label>
+        <label id="calendar_thursday" lang="fr">Jeudi</label>
+        <label id="calendar_thursday" lang="en">Thursday</label>
+        <label id="calendar_friday" lang="fr">Vendredi</label>
+        <label id="calendar_friday" lang="en">Friday</label>
+        <label id="calendar_saturday" lang="fr">Samedi</label>
+        <label id="calendar_saturday" lang="en">Saturday</label>
+        <label id="calendar_sunday" lang="fr">Dimanche</label>
+        <label id="calendar_sunday" lang="en">Sunday</label>
+        <label id="calendar_legend" lang="fr">Légende</label>
+        <label id="calendar_legend" lang="en">Legend</label>
+        <label id="calendar_january" lang="fr">Janvier</label>
+        <label id="calendar_january" lang="en">January</label>
+        <label id="calendar_february" lang="fr">Février</label>
+        <label id="calendar_february" lang="en">February</label>
+        <label id="calendar_march" lang="fr">Mars</label>
+        <label id="calendar_march" lang="en">March</label>
+        <label id="calendar_april" lang="fr">Avril</label>
+        <label id="calendar_april" lang="en">April</label>
+        <label id="calendar_may" lang="fr">Mai</label>
+        <label id="calendar_may" lang="en">May</label>
+        <label id="calendar_june" lang="fr">Juin</label>
+        <label id="calendar_june" lang="en">June</label>
+        <label id="calendar_july" lang="fr">Juillet</label>
+        <label id="calendar_july" lang="en">July</label>
+        <label id="calendar_august" lang="fr">Août</label>
+        <label id="calendar_august" lang="en">August</label>
+        <label id="calendar_september" lang="fr">September</label>
+        <label id="calendar_september" lang="en">September</label>
+        <label id="calendar_october" lang="fr">Octobre</label>
+        <label id="calendar_october" lang="en">October</label>
+        <label id="calendar_november" lang="fr">Novembre</label>
+        <label id="calendar_november" lang="en">November</label>
+        <label id="calendar_december" lang="fr">Decembre</label>
+        <label id="calendar_december" lang="en">December</label>
+        
+        
+        
+        <!-- Install -->
+        <label id="install_page_title" lang="fr">Installation EZcast</label>
+        <label id="install_page_title" lang="en">Install EZcast</label>
+        <label id="install_title" lang="fr">Installation EZcast</label>
+        <label id="install_title" lang="en">Install EZcast</label>
+        <label id="install_db_choice" lang="fr">Installation EZcast - Base de données </label>
+        <label id="install_db_choice" lang="en">Install EZcast - Database</label>
+        <label id="install_success_title" lang="fr">Installation EZcast réussie</label>
+        <label id="install_success_title" lang="en">EZcast successfully installed</label>
+        <label id="settings_panel_general" lang="fr">Options générales</label>
+        <label id="settings_panel_general" lang="en">General settings</label>
+        <label id="settings_appname" lang="fr">Nom d'application</label>
+        <label id="settings_appname" lang="en">Application name</label>
+        <label id="settings_application_url" lang="fr">URL d'application</label>
+        <label id="settings_application_url" lang="en">Application URL</label>
+        <label id="https_ready" lang="fr">Site utilisant le protocol https</label>
+        <label id="https_ready" lang="en">Using https protocol</label>
+        <label id="settings_organization_name" lang="fr">Nom de l'organisation</label>
+        <label id="settings_organization_name" lang="en">Organization name</label>
+        <label id="settings_organization_url" lang="fr">URL de l'organisation</label>
+        <label id="settings_organization_url" lang="en">Organization URL</label>
+        <label id="settings_organization_logo" lang="fr">Logo de l'organisation</label>
+        <label id="settings_organization_logo" lang="en">Organization logo</label>
+        <label id="settings_copyright" lang="fr">Copyright</label>
+        <label id="settings_copyright" lang="en">Copyright</label>
+        <label id="settings_email" lang="fr">Adresse email</label>
+        <label id="settings_email" lang="en">Email address</label>
+        <label id="settings_repository_basedir" lang="fr">Chemin racine du dépôt</label>
+        <label id="settings_repository_basedir" lang="en">Repository root path</label>
+        <label id="settings_ezcast_basedir" lang="fr">Chemin racine de l'application</label>
+        <label id="settings_ezcast_basedir" lang="en">Application root path</label>
+        <label id="settings_php_path" lang="fr">Commande cli PHP</label>
+        <label id="settings_php_path" lang="en">PHP cli command</label>
+        <label id="settings_rsync_path" lang="fr">Commande rsync</label>
+        <label id="settings_rsync_path" lang="en">Rsync command</label>
+        <label id="settings_panel_db" lang="fr">Options de la base de données</label>
+        <label id="settings_panel_db" lang="en">Database's settings</label>
+        <label id="settings_db_type" lang="fr">Type</label>
+        <label id="settings_db_type" lang="en">Type</label>
+        <label id="settings_db_host" lang="fr">Hôte</label>
+        <label id="settings_db_host" lang="en">Host</label>
+        <label id="settings_db_login" lang="fr">Utilisateur</label>
+        <label id="settings_db_login" lang="en">Login</label>
+        <label id="settings_db_passwd" lang="fr">Mot de passe</label>
+        <label id="settings_db_passwd" lang="en">Password</label>
+        <label id="settings_db_name" lang="fr">Nom de la base de donnée</label>
+        <label id="settings_db_name" lang="en">Database's name</label>
+        <label id="settings_db_prefix" lang="fr">Préfixe</label>
+        <label id="settings_db_prefix" lang="en">Prefix</label>
+        <label id="settings_panel_recorder" lang="fr">Options de l'enregistreur</label>
+        <label id="settings_panel_recorder" lang="en">Recorder's settings</label>
+        <label id="settings_recorder_user" lang="fr">Utilisateur</label>
+        <label id="settings_recorder_user" lang="en">User</label>
+        <label id="settings_recorder_basedir" lang="fr">Dossier</label>
+        <label id="settings_recorder_basedir" lang="en">Directory</label>
+        <label id="settings_template_folder" lang="fr">Dossier de templates</label>
+        <label id="settings_template_folder" lang="en">Templates directory</label>
+        <label id="settings_panel_ezmanager" lang="fr">Options de EZManager</label>
+        <label id="settings_panel_ezmanager" lang="en">EZManager's options</label>
+        <label id="settings_ezmanager_host" lang="fr">Hôte</label>
+        <label id="settings_ezmanager_host" lang="en">Host</label>
+        <label id="settings_ezmanager_user" lang="fr">Utilisateur</label>
+        <label id="settings_ezmanager_user" lang="en">User</label>
+        <label id="settings_panel_user" lang="fr">Options d'EZAdmin</label>
+        <label id="settings_panel_user" lang="en">EZAdmin's options</label>
+        <label id="settings_recorders_category_enabled" lang="fr">Utilisé les enregistreurs</label>
+        <label id="settings_recorders_category_enabled" lang="en">Use recorders</label>
+        <label id="settings_classrooms_category_enabled" lang="fr">Gestion des auditoires</label>
+        <label id="settings_classrooms_category_enabled" lang="en">Classroom management</label>
+        <label id="settings_add_users_enabled" lang="fr">Autorisé l'ajout d'utilisateur</label>
+        <label id="settings_add_users_enabled" lang="en">Allow user addition</label>
+        <label id="settings_recorder_password_storage_enabled" lang="fr">Stocker les mots de passe en auditoire</label>
+        <label id="settings_recorder_password_storage_enabled" lang="en">Store password in classroom</label>
+        <label id="settings_use_user_name" lang="fr">Afficher le nom des utilisateurs</label>
+        <label id="settings_use_user_name" lang="en">Show users name</label>
+        <label id="install" lang="fr">Installer</label>
+        <label id="install" lang="en">Install</label>
+        <label id="stats_album_name" lang="fr">Nom de l'album</label>
+        <label id="stats_album_name" lang="en">Album name</label>
+        <label id="stats_total_counts" lang="fr">Totaux</label>
+        <label id="stats_total_counts" lang="en">Totals</label>
+        <label id="stats_discussions_count" lang="fr">Nombre de discussions</label>
+        <label id="stats_discussions_count" lang="en">Number of discussions</label>
+        <label id="stats_comments_count" lang="fr">Nombre de commentaires</label>
+        <label id="stats_comments_count" lang="en">Number of comments</label>
+        <label id="stats_comments_by_discussion" lang="fr">Nombre de commentaires par discussion</label>
+        <label id="stats_comments_by_discussion" lang="en">Number of comments by discussion</label>
+        <label id="stats_total" lang="fr">Total</label>
+        <label id="stats_total" lang="en">Total</label>
+        <label id="stats_average" lang="fr">Moyenne</label>
+        <label id="stats_average" lang="en">Average</label>
+        
+        
+        
+        <!-- Report -->
+        <label id="report_form_general" lang="fr">Général</label>
+        <label id="report_form_general" lang="en">General</label>
+        <label id="report_form_ezplayer" lang="fr">EZPlayer</label>
+        <label id="report_form_ezplayer" lang="en">EZPlayer</label>
+        <label id="report_form_generate" lang="fr">Générer</label>
+        <label id="report_form_generate" lang="en">Generate</label>
+        <label id="report_info_date" lang="fr">Les informations se trouvant dans la colonne "Période" concernent les informations récupéres entre le</label>
+        <label id="report_info_date" lang="en">The informations in the "Period" column concern retrieved informations between</label>
+        <label id="report_info_date_end" lang="fr">et le</label>
+        <label id="report_info_date_end" lang="en">and</label>
+        <label id="report_column_general" lang="fr">Général</label>
+        <label id="report_column_general" lang="en">General</label>
+        <label id="report_column_date" lang="fr">Période</label>
+        <label id="report_column_date" lang="en">Period</label>
+        <label id="report_row_all_author" lang="fr">Total auteurs (utilisateurs ayant soumis des videos via EZManager et/ou ayant enregistré en auditoire)</label>
+        <label id="report_row_all_author" lang="en">Total authors (users having submitted using EZManager and/or have registered in classroom)</label>
+        <label id="report_row_submit_author" lang="fr">Auteurs différents ayant soumis des videos via EZManager</label>
+        <label id="report_row_submit_author" lang="en">Authors that submitted videos using EZManager</label>
+        <label id="report_row_record_author" lang="fr">Auteurs ayant enregistré en auditoire</label>
+        <label id="report_row_record_author" lang="en">Authors having registered in classroom</label>
+        <label id="report_row_list_cours" lang="fr">Total cours (contenant des vidéos soumises via EZManager et/ou des enregistrements en auditoire)</label>
+        <label id="report_row_list_cours" lang="en">Total courses (containing capsules and/or classroom records)</label>
+        <label id="report_row_list_cours_submit" lang="fr">Cours contenant des vidéos soumises via EZManager</label>
+        <label id="report_row_list_cours_submit" lang="en">Courses containing videos submitted using EZManager</label>
+        <label id="report_row_list_cours_record" lang="fr">Cours contenant des enregistrements faits en auditoire</label>
+        <label id="report_row_list_cours_record" lang="en">Courses containing classroom recordings</label>
+        <label id="report_row_no_delete_test" lang="fr">Ne tient pas compte des assets supprimés ni des tests </label>
+        <label id="report_row_no_delete_test" lang="en">Deleted or tested assets are ignored</label>
+        <label id="report_row_total_asset" lang="fr">Total assets (soumis via EZManager + cours enregistrés)</label>
+        <label id="report_row_total_asset" lang="en">Total assets (submitted using EZManager + recorded courses)</label>
+        <label id="report_row_asset_submit" lang="fr">Total assets soumis via EZManager</label>
+        <label id="report_row_asset_submit" lang="en">Total assets submitted using EZManager</label>
+        <label id="report_row_asset_record" lang="fr">Total assets enregistrés en auditoire</label>
+        <label id="report_row_asset_record" lang="en">Total assets recorded in classroom</label>
+        <label id="report_ezplayer_row_total_users" lang="fr">Total d'utilisateurs différents</label>
+        <label id="report_ezplayer_row_total_users" lang="en">Total different users</label>
+        <label id="report_ezplayer_row_total_thread" lang="fr">Total de discussions créées</label>
+        <label id="report_ezplayer_row_total_thread" lang="en">Total of threads created</label>
+        <label id="report_ezplayer_row_course_thread" lang="fr">Liste des cours contenant des discussions</label>
+        <label id="report_ezplayer_row_course_thread" lang="en">Course list containing discussions</label>
+        <label id="report_ezplayer_row_total_comment" lang="fr">Total de commentaires ajoutés</label>
+        <label id="report_ezplayer_row_total_comment" lang="en">Total comment added</label>
+        <label id="report_ezplayer_row_course_comment" lang="fr">Liste des cours contenant des commentaires</label>
+        <label id="report_ezplayer_row_course_comment" lang="en">Course list containing comments</label>
+        <label id="report_ezplayer_row_total_bookmark" lang="fr">Total de signets (personnels et officiels) ajoutés (traces)</label>
+        <label id="report_ezplayer_row_total_bookmark" lang="en">Total bookmarks (personal and official) added (traces)</label>
+        <label id="report_ezplayer_row_bookmark_official" lang="fr">Total de signets officiels ajoutés (traces)</label>
+        <label id="report_ezplayer_row_bookmark_official" lang="en">Total official added bookmarks (traces)</label>
+        <label id="report_ezplayer_row_bookmark_personal" lang="fr">Total de signets personnels ajoutés (traces)</label>
+        <label id="report_ezplayer_row_bookmark_personal" lang="en">Total added personal bookmarks (traces)</label>
+        <label id="report_ezplayer_row_bookmark_user_official" lang="fr">Total d'utilisateurs ayant ajouté des signets officiels (traces)</label>
+        <label id="report_ezplayer_row_bookmark_user_official" lang="en">Total different users who have added official bookmarks (traces)</label>
+        <label id="report_ezplayer_row_bookmark_user_personal" lang="fr">Total d'utilisateurs ayant ajouté des signets personnels (traces)</label>
+        <label id="report_ezplayer_row_bookmark_user_personal" lang="en">Total users who have added personal bookmarks (traces)</label>
+        <label id="report_title_date_info" lang="fr">Information pour la période</label>
+        <label id="report_title_date_info" lang="en">Information for the period</label>
+        <label id="report_classroom_utilisation" lang="fr">Utilisation des auditoires</label>
+        <label id="report_classroom_utilisation" lang="en">Classroom utilisation</label>
+        <label id="report_classroom" lang="fr">Auditoire</label>
+        <label id="report_classroom" lang="en">Classroom</label>
+        <label id="report_record_number" lang="fr">Nombre d'enregistrements</label>
+        <label id="report_record_number" lang="en">Number of records</label>
+        <label id="report_record_time" lang="fr">Temps d'enregistrements</label>
+        <label id="report_record_time" lang="en">Records time</label>
+        <label id="report_total_submit" lang="fr">Total soumis sur EZManager</label>
+        <label id="report_total_submit" lang="en">Total submitted using EZManager</label>
+        <label id="report_total_classroom" lang="fr">Total en auditoire</label>
+        <label id="report_total_classroom" lang="en">Total classroom</label>
+        <label id="report_total" lang="fr">Total</label>
+        <label id="report_total" lang="en">Total</label>
+        <label id="report_video_submit" lang="fr">vidéos soumises</label>
+        <label id="report_video_submit" lang="en">submited videos</label>
+        <label id="report_video_record" lang="fr">vidéos enregistrées</label>
+        <label id="report_video_record" lang="en">recorded videos</label>
+        <label id="report_nbr_record" lang="fr">enregistrement</label>
+        <label id="report_nbr_record" lang="en">record</label>
+        <label id="report_classroom_unused" lang="fr">Auditoire inutilisé</label>
+        <label id="report_classroom_unused" lang="en">Unused classroom</label>
+        <label id="report_row_value" lang="fr">Valeur</label>
+        <label id="report_row_value" lang="en">Value</label>
+        <label id="report_row_user_login" lang="fr">Utilisateurs authentifiés différents pour la période donnée</label>
+        <label id="report_row_user_login" lang="en">Authenticated users for current period</label>
+        <label id="report_nbr_connexion" lang="fr">Connexions</label>
+        <label id="report_nbr_connexion" lang="en">Connections</label>
+        <label id="report_user" lang="fr">Utilisateur (id)</label>
+        <label id="report_user" lang="en">User (id)</label>
+        <label id="report_row_nbr_anonym_user" lang="fr">Utilisateurs anonymes pour la période donnée </label>
+        <label id="report_row_nbr_anonym_user" lang="en">Anonymous users for the period</label>
+        <label id="report_row_user_browser" lang="fr">Classement des navigateurs web | OS par ordre d'utilisation pour la période donnée</label>
+        <label id="report_row_user_browser" lang="en">Ranking web browsers | OS in order of use for the given period</label>
+        <label id="report_browser" lang="fr">Navigateur</label>
+        <label id="report_browser" lang="en">Browser</label>
+        <label id="report_os" lang="fr">Système d'exploitation</label>
+        <label id="report_os" lang="en">Operating system</label>
+        <label id="report_row_list_album" lang="fr">Albums consultés pour la période donnée (parcourir l'album, sans forcément cliquer sur un asset)</label>
+        <label id="report_row_list_album" lang="en">Albums browsed for the given period (the album cover, without necessarily clicking an asset)</label>
+        <label id="report_row_album_click" lang="fr">Albums contenant au moins un asset ayant été consulté pour la période donnée.</label> 
+        <label id="report_row_album_click" lang="en">Number of different albums containing at least one asset that was consulted for the given period.</label>
+        <label id="report_row_album_click_info" lang="fr">Contrairement aux albums consultés, qui peuvent avoir été parcourus sans avoir cliqué sur 
+            aucune vidéo, ce nombre-ci ne tient compte que des albums dans lesquels au moins un utilisateur a consulté au moins un asset.</label>
+        <label id="report_row_album_click_info" lang="en">Unlike consulted albums, which may have been viewed without clicking any video, 
+            that number will consider only the albums with at least one user which has consulted at least one asset.</label>
+        <label id="report_row_nbr_unique_asset" lang="fr">Assets consultés pour la période donnée</label>
+        <label id="report_row_nbr_unique_asset" lang="en">Assets found for given period</label>
+        <label id="report_row_nbr_asset" lang="fr">Total consultations d'asset pour la période donnée</label>
+        <label id="report_row_nbr_asset" lang="en">Total asset consultations for given period period</label>
+        <label id="report_warning_asset" lang="fr">Un même utilisateur est compté plusieurs fois s'il regarde plusieurs fois le même asset</label>
+        <label id="report_warning_asset" lang="en">One user will be counted several times if he views several time the same asset</label>
+        <label id="report_row_list_asset" lang="fr">Assets les plus consultés</label>
+        <label id="report_row_list_asset" lang="en">Most viewed assets</label>
+        <label id="report_row_view_number" lang="fr">Consulations</label>
+        <label id="report_row_view_number" lang="en">Consultations</label>
+        <label id="report_asset" lang="fr">Asset</label>
+        <label id="report_asset" lang="en">Asset</label>
+        <label id="report_row_cours_bookmark_personal" lang="fr">Cours dans lesquels le plus de signets personnels ont été ajoutés</label>
+        <label id="report_row_cours_bookmark_personal" lang="en">Courses in which most of personal bookmarks were added</label>
+        <label id="report_bookmark_add" lang="fr">Signet(s) ajouté(s)</label>
+        <label id="report_bookmark_add" lang="en">Bookmark(s) added</label>
+        <label id="report_cours" lang="fr">Cours</label>
+        <label id="report_cours" lang="en">Cours</label>
+        <label id="report_row_cours_bookmark_official" lang="fr">Utilisateurs ayant le plus de signets officiels</label>
+        <label id="report_row_cours_bookmark_official" lang="en">Users with most of bookmarks (official)</label>
+        <label id="report_asset_distribution" lang="fr">Répartition des vues assets</label>
+        <label id="report_asset_distribution" lang="en">Asset view distribution</label>
+        <label id="report_asset_number" lang="fr">Nombre d'asset</label>
+        <label id="report_asset_number" lang="en">Asset number</label>
+        <label id="report_status_percent_success" lang="fr">Proportion&lt;br /&gt;d'enregistrements&lt;br /&gt;réussis</label>
+        <label id="report_status_percent_success" lang="en">Proportion of&lt;br /&gt;successful&lt;br /&gt;recording</label>
+        <label id="report_status_error" lang="fr">Echec</label>
+        <label id="report_status_error" lang="en">Fail</label>
+        <label id="report_status_success" lang="fr">Réussi</label>
+        <label id="report_status_success" lang="en">Success</label>
+        <label id="report_camslide_distribution" lang="fr">Répartition des&lt;br /&gt;enregistrements camslide</label>
+        <label id="report_camslide_distribution" lang="en">Distribution of&lt;br /&gt;camslide recording</label>
+        <label id="report_status_sum" lang="fr">Somme des enregistrements réussis et ratés</label>
+        <label id="report_status_sum" lang="en">Sum recording successed and failed</label>
+        <label id="report_os_graphic" lang="fr">Système d'exploitation utilisé</label>
+        <label id="report_os_graphic" lang="en">Used operator system</label>
+        <label id="report_browser_graphic" lang="fr">Navigateur utilisé</label>
+        <label id="report_browser_graphic" lang="en">Used browser</label>
+        
+        
+        
+        <!-- Long texts -->
+        <label id="Logout_confirmation_message" lang="fr">Vous êtes maintenant déconnecté.&lt;br /&gt;Merci d'avoir utilisé nos services, 
+            et à bientôt.&lt;br /&gt;&lt;br /&gt;&lt;a href="index.php">Revenir à la page de connexion&lt;/a&gt;</label>
+        <label id="Logout_confirmation_message" lang="en">You are now logged out.&lt;br /&gt;Thanks for using our services, see you soon.
+            &lt;br /&gt;&lt;br /&gt;&lt;a href="index.php"&gt;Back to the login form.&lt;/a&gt;</label>
+        <label id="create_renderer_step_2_message" lang="fr">Ajoutez la &lt;b&gt;clé publique&lt;/b&gt; affichée ci-dessous sur le serveur 
+            distant (renderer) dans &lt;b&gt;~&lt;?php echo $_SESSION['renderer_user'];?&gt;/.ssh/authorized_keys&lt;/b&gt; 
+            et cliquez sur "Suivant" pour tester la connexion SSH.</label>
+        <label id="create_renderer_step_2_message" lang="en">Add the following &lt;b&gt;public key&lt;/b&gt; in 
+            &lt;b&gt;~&lt;?php echo $_SESSION['renderer_user'];?&gt;/.ssh/authorized_keys&lt;/b&gt;on the remote server (renderer) 
+            and click "Continue" to test the SSH connection.</label>
+        <label id="create_renderer_step_2_loading" lang="fr">Vérification de la connexion SSH avec le serveur distant (renderer)</label>
+        <label id="create_renderer_step_2_loading" lang="en">Checking SSH connection to the remote server (renderer)</label>
+        <label id="create_renderer_step_2_wait" lang="fr">Ceci peut prendre jusqu'à &lt;?php echo $ssh_timeout;?&gt; secondes. 
+            Veuillez ne pas rafraichir la page.</label>
+        <label id="create_renderer_step_2_wait" lang="en">This may last up to &lt;?php echo $ssh_timeout;?&gt; seconds. Please, 
+            do not refresh the page.</label>
+        <label id="ssh_connection_success" lang="fr">Connexion SSH au serveur distant (renderer) réussie !</label>
+        <label id="ssh_connection_success" lang="en">Successfully connected via SSH to the remote server (renderer) !</label>
+        <label id="create_renderer_step_3_loading" lang="fr">Vérification de la configuration du serveur distant (renderer)</label>
+        <label id="create_renderer_step_3_loading" lang="en">Checking configuration of the remote server (renderer)</label>
+        <label id="create_renderer_step_3_wait" lang="fr">Ceci peut prendre jusqu'à &lt;?php echo $ssh_timeout;?&gt; secondes. 
+            Veuillez ne pas rafraichir la page.</label>
+        <label id="create_renderer_step_3_wait" lang="en">This may last up to &lt;?php echo $ssh_timeout;?&gt; seconds. 
+            Please, do not refresh the page.</label>
+        <label id="configuration_success" lang="fr">Les tests de configuration du serveur distant (renderer) ont réussi !</label>
+        <label id="configuration_success" lang="en">Configuration tests on the remote server (renderer) have been successful !</label>
+        <label id="create_renderer_step_4_message" lang="fr">Le programme va maintenant: </label>
+        <label id="create_renderer_step_4_message" lang="en">The program is now going to: </label>
+        <label id="create_renderer_step_4_copy" lang="fr">Copier les fichiers d'installation d'EZrenderer sur le serveur distant 
+            [&lt;?php echo $_SESSION['renderer_root_path'];?&gt;]</label>
+        <label id="create_renderer_step_4_copy" lang="en">Copy EZrenderer installation files on the remote server 
+            [&lt;?php echo $_SESSION['renderer_root_path'];?&gt;]</label>
+        <label id="create_renderer_step_4_install" lang="fr">Installer EZrenderer sur le serveur distant (renderer)</label>
+        <label id="create_renderer_step_4_install" lang="en">Install EZrenderer on the remote server (renderer) </label>
+        <label id="create_renderer_step_4_xml" lang="fr">Mettre à jour la liste des renderers pour EZadmin et EZmanager </label>
+        <label id="create_renderer_step_4_xml" lang="en">Update renderers list for EZadmin and EZmanager </label>
+        <label id="load_step_4_copy" lang="fr">Copie des fichiers d'installation d'EZrenderer en cours ...</label>
+        <label id="load_step_4_copy" lang="en">Copying EZrenderer installation files ...</label>
+        <label id="stats_general_title" lang="fr">Statistiques générales</label>
+        <label id="stats_general_title" lang="en">Global statistics</label>
+        <label id="stats_comment_title" lang="fr">Statistiques sur discussions et commentaires</label>
+        <label id="stats_comment_title" lang="en">Statistics over discussions and comments</label>
+        <label id="stats_since" lang="fr">Depuis le début du système </label>
+        <label id="stats_since" lang="en">Since the beginning </label>
+        <label id="stats_discussions_created" lang="fr">discussions ont été créées</label>
+        <label id="stats_discussions_created" lang="en">discussions have been created</label>
+        <label id="stats_comments_created" lang="fr">commentaires ont été postés</label>
+        <label id="stats_comments_created" lang="en">comments have been published</label>
+        <label id="discussions_comments_by_album" lang="fr">Répartition des discussions et commentaires par album</label>
+        <label id="discussions_comments_by_album" lang="en">Repartition of discussions and comments by album</label>
+        <label id="stats_at_least_one" lang="fr">Seuls les albums dont au moins une vidéo possède une discussion sont affichés.</label>
+        <label id="stats_at_least_one" lang="en">The album has to contains at least one discussion to be displayed.</label>
+        <label id="stats_discussions_by_album" lang="fr">Nombre de discussions par album</label>
+        <label id="stats_discussions_by_album" lang="en">Number of discussions by album</label>
+        <label id="stats_month" lang="fr">Statistiques par mois</label>
+        <label id="stats_month" lang="en">Monthly statistics</label>
+        <label id="stats_month_error" lang="fr">La date recherchée est ultérieure à la date actuelle.</label>
+        <label id="stats_month_error" lang="en">The date you entered is later than the current date.</label>
+        <label id="stats_nan_error" lang="fr">Introduisez une valeur numérique dans le champ de saisie.</label>
+        <label id="stats_nan_error" lang="en">Numeric value expected. Found NaN value.</label>
+        <label id="stats_n_days" lang="fr">Statistiques des n derniers jours</label>
+        <label id="stats_n_days" lang="en">Statistics for the N last days</label>
+        <label id="stats_other" lang="fr">Autres ...</label>
+        <label id="stats_other" lang="en">Others ...</label>
+        <label id="stats_discussions_by_asset" lang="fr">Nombre de discussions par asset</label>
+        <label id="stats_discussions_by_asset" lang="en">Number of discussions by asset</label>
+        <label id="developed_by" lang="fr"> est une solution propulsée par </label>
+        <label id="developed_by" lang="en"> is a solution powered by </label>
+        <label id="monit_help_status_title" lang="fr">Informations</label>
+        <label id="monit_help_status_title" lang="en">Informations</label>
+        <label id="monit_help_status_auto_success" lang="fr">
+            Statut mis automatiquement lorsque tout va bien
+        </label>
+        <label id="monit_help_status_auto_success" lang="en">
+            Status set automatically when all is ok
+        </label>
+        <label id="monit_help_status_auto_success_error" lang="fr">
+            Statut mis automatiquement lorsque l'on a le résultat mais qu'il y a des erreurs critiques
+        </label>
+        <label id="monit_help_status_auto_success_error" lang="en">
+            Status set automatically when we have the result that there are critical errors
+        </label>
+        <label id="monit_help_status_auto_success_warnings" lang="fr">
+            Statut mis automatiquement lorsque l'on a le résultat mais qu'il y a des warnings/erreurs
+        </label>
+        <label id="monit_help_status_auto_success_warnings" lang="en">
+            Status set automatically when we have the result that there are warnings/errors
+        </label>
+        <label id="monit_help_status_auto_failure" lang="fr">
+            Statut mis automatiquement lorsqu'il y a un problème
+        </label>
+        <label id="monit_help_status_auto_failure" lang="en">
+            Status set automatically when there is a problem
+        </label>
+        <label id="monit_help_status_manual_ok" lang="fr">
+            Statut mis (manuellement) lorsque tout va bien
+        </label>
+        <label id="monit_help_status_manual_ok" lang="en">
+            Status set (manually) when all is ok
+        </label>
+        <label id="monit_help_status_manual_partial_ok" lang="fr">
+            Statut mis (manuellement) lorsque le problème a été réglé mais avec perte partielle
+        </label>
+        <label id="monit_help_status_manual_partial_ok" lang="en">
+            Status set (manually) when the problem was fixed but with partial loss
+        </label>
+        <label id="monit_help_status_manual_failure" lang="fr">
+            Statut mis (manuellement) lorsque le problème a été vu mais qu'il y a eu une perte total
+        </label>
+        <label id="monit_help_status_manual_failure" lang="en">
+            Status set (manually) when the problem was seen but there was a total loss
+        </label>
+        <label id="monit_help_status_manual_ignore" lang="fr">
+            Statut mis (manuellement) lorsque l'asset n'est pas important (permet également de lier à un autre asset)
+        </label>
+        <label id="monit_help_status_manual_ignore" lang="en">
+            Status set (manually) when the asset is not important (and could be link with an other asset)
+        </label>
+        <label id="monit_help_status_close" lang="fr">Fermer</label>
+        <label id="monit_help_status_close" lang="en">Close</label>
+        <label id="monit_help_status_automatic" lang="fr">Automatique</label>
+        <label id="monit_help_status_automatic" lang="en">Automaic</label>
+        <label id="monit_help_status_manual" lang="fr">Manuel</label>
+        <label id="monit_help_status_manual" lang="en">Manual</label>
+        <label id="monit_help_parent_define" lang="fr">Le statut de l'asset actuel sera automatiquement mis en Ignorer</label>
+        <label id="monit_help_parent_define" lang="en">The status of the current asset will be automatically set to Ignore</label>
+        <label id="monit_warning_cron" lang="fr">Attention, aucun statut n'a été posté depuis un certains temps. Vérifiez que la tache "cron" est 
+            toujours activée.&lt;br /&gt;
+            Si elle était désactivée, exécutez le script: 
+            &lt;code&gt;php &lt;?php echo $ezmanager_basedir; ?&gt;cli_fill_assets_status.php all&lt;/code&gt;
+        </label>
+        <label id="monit_warning_cron" lang="en">Warning, no status has been posted for a certaine time. Check the 
+            "cron" task.&lt;br /&gt;
+            If it was disabled, run this script: 
+            &lt;code&gt;php &lt;?php echo $ezmanager_basedir; ?&gt;cli_fill_assets_status.php all&lt;/code&gt;
+        </label>
+        
+        <!-- Version -->
+        <label id="new_config_version" lang="fr">Votre configuration n\'est pas à jour !</label>
+        <label id="new_config_version" lang="en">Your configuration is not up to date</label>
+        <label id="config_more_recent_version" lang="fr">Votre configuration est en avance par rapport à la 
+            version installée</label>
+        <label id="config_more_recent_version" lang="en">Your configuration is ahead of the installed version</label>
+        
+        
+        <!-- Error -->
+        <label id="error" lang="fr">Erreur</label>
+        <label id="error" lang="en">Error</label>
+        <label id="alert_pass_not_defined" lang="fr">Mot de passe non défini</label>
+        <label id="alert_pass_not_defined" lang="en">No password defined</label>
+        
+    </labels>
+    
+    <!-- Messages are texts that are dynamically generated (errors, etc.) -->
+    <messages>
+        <!-- Random messages -->
+        <message id="view_video" lang="fr">Voir la vidéo</message>
+        <message id="view_video" lang="en">View video</message>
+        
+        <message id="month_01" lang="fr">janvier</message>
+        <message id="month_01" lang="en">January</message>
+        <message id="month_02" lang="fr">février</message>
+        <message id="month_02" lang="en">February</message>
+        <message id="month_03" lang="fr">mars</message>
+        <message id="month_03" lang="en">March</message>
+        <message id="month_04" lang="fr">avril</message>
+        <message id="month_04" lang="en">April</message>
+        <message id="month_05" lang="fr">mai</message>
+        <message id="month_05" lang="en">May</message>
+        <message id="month_06" lang="fr">juin</message>
+        <message id="month_06" lang="en">June</message>
+        <message id="month_07" lang="fr">juillet</message>
+        <message id="month_07" lang="en">July</message>
+        <message id="month_08" lang="fr">août</message>
+        <message id="month_08" lang="en">August</message>
+        <message id="month_09" lang="fr">septembre</message>
+        <message id="month_09" lang="en">September</message>
+        <message id="month_10" lang="fr">octobre</message>
+        <message id="month_10" lang="en">October</message>
+        <message id="month_11" lang="fr">novembre</message>
+        <message id="month_11" lang="en">November</message>
+        <message id="month_12" lang="fr">décembre</message>
+        <message id="month_12" lang="en">December</message>
+        
+        <!-- Errors -->
+        <message id="db_request_failed" lang="fr">Requête db échouée</message>
+        <message id="db_request_failed" lang="en">DB request failed</message>
+        <message id="error_mimetype" lang="fr">Le fichier soumis ne semble pas être de type video</message>
+        <message id="error_mimetype" lang="en">The submitted file doesnt seem to be a movie</message>
+        <message id="empty_username_password" lang="fr">Veuillez entrer votre netID et mot de passe.</message>
+        <message id="empty_username_password" lang="en">Please enter your netID and password.</message>
+        <message id="not_registered" lang="fr">Vous n\'avez aucun cours à votre nom. Si vous pensez qu\'il s\'agit d\'une 
+            erreur, contactez podcast@ulb.ac.be</message>
+        <message id="not_registered" lang="en">You do no have the rights to manage any course. If you think this is a mistake, 
+            please contact podcast@ulb.ac.be</message>
+        <message id="Unauthorized" lang="fr">Accès refusé: permissions insuffisantes.</message>
+        <message id="Unauthorized" lang="en">Access denied: you don\'t have permission to access this element.</message>
+        <message id="Non-existant_album" lang="fr">Accès refusé: album inexistant</message>
+        <message id="Non-existant_album" lang="en">Access denied: the album does not exist</message>
+        <message id="Non-existant_asset" lang="fr">Accès refusé: enregistrement inexistant</message>
+        <message id="Non-existant_asset" lang="en">Access denied: the record does not exist</message>
+        <message id="File_not_found" lang="fr">Fichier introuvable</message>
+        <message id="File_not_found" lang="en">Could not find your file, sorry</message>
+        <message id="Upload_error" lang="fr">Erreur lors de l\'envoi. Veuillez réessayer ou contacter podcast@ulb.ac.be</message>
+        <message id="Upload_error" lang="en">Upload error. Please try again or contact podcast@ulb.ac.be</message>
+        <message id="Invalid_token" lang="fr">Accès refusé</message>
+        <message id="Invalid_token" lang="en">Access denied</message>
+        <message id="Invalid_quality" lang="fr">Accès refusé: qualité non-valide</message>
+        <message id="Invalid_quality" lang="en">Access denied: invalid quality</message>
+        <message id="Invalid_type" lang="fr">Accès refusé: type de média non-valide</message>
+        <message id="Invalid_type" lang="en">Access denied: invalid media type</message>
+        <message id="push_to_recorder_unsuccessful" lang="fr">Erreur. Il est possible que certains enregistreurs n\'aient pas été mis
+            à jour.</message>
+        <message id="push_to_recorder_unsuccessful" lang="en">Error. Some recorders might not have been updated.</message>
+        <message id="missing_room_id" lang="fr">Le code auditoire ne peut pas être vide.</message>
+        <message id="missing_room_id" lang="en">The room ID cannot be blank</message>
+        <message id="missing_ip" lang="fr">L'IP ne peut pas être vide.</message>
+        <message id="missing_ip" lang="en">The IP cannot be blank</message>
+        <message id="format_ip" lang="fr">L'IP doit respecter le format "255.255.255.255".</message>
+        <message id="format_ip" lang="en">The IP must follow the format "255.255.255.255".</message>
+        <message id="missing_course_code" lang="fr">Le mnémonique ne peut pas être vide.</message>
+        <message id="missing_course_code" lang="en">The course code cannot be blank</message>
+        <message id="missing_course_name" lang="fr">L'intitulé de cours ne peut pas être vide.</message>
+        <message id="missing_course_name" lang="en">The course name cannot be blank.</message>
+        <message id="missing_user_ID" lang="fr">L'identifiant ne peut pas être vide.</message>
+        <message id="missing_user_ID" lang="en">The user ID cannot be blank</message>
+        <message id="missing_recorder_passwd" lang="fr">Le mot de passe du recordeur ne peut pas être vide.</message>
+        <message id="missing_recorder_passwd" lang="en">The recorder password cannot be blank.</message>
+        <message id="existing_renderer_name" lang="fr">Ce nom de renderer existe déjà.</message>
+        <message id="existing_renderer_name" lang="en">The renderer name already exists</message>
+        <message id="missing_renderer_name" lang="fr">Le nom du renderer ne peut pas être vide.</message>
+        <message id="missing_renderer_name" lang="en">The renderer name cannot be blank</message>
+        <message id="missing_renderer_address" lang="fr">L'adresse du renderer ne peut pas être vide.</message>
+        <message id="missing_renderer_address" lang="en">The renderer address cannot be blank</message>
+        <message id="missing_renderer_user" lang="fr">Le nom d'utilisateur du renderer ne peut pas être vide.</message>
+        <message id="missing_renderer_user" lang="en">The renderer username cannot be blank</message>
+        <message id="missing_renderer_root_path" lang="fr">La racine du renderer doit être renseignée.</message>
+        <message id="missing_renderer_root_path" lang="en">The renderer root path cannot be blank</message>
+        <message id="bad_renderer_root_path" lang="fr">La racine du renderer ne semble pas être un répertoire valide.</message>
+        <message id="bad_renderer_root_path" lang="en">The renderer root path seems not to be a valid directory</message>
+        <message id="missing_renderer_php" lang="fr">Le binaire PHP doit être renseigné.</message>
+        <message id="missing_renderer_php" lang="en">The PHP binary cannot be blank</message>
+        <message id="missing_renderer_ffmpeg" lang="fr">Le binaire FFMPEG doit être renseigné.</message>
+        <message id="missing_renderer_ffmpeg" lang="en">The FFMPEG binary cannot be blank</message>
+        <message id="missing_renderer_ffprobe" lang="fr">Le binaire FFPROBE doit être renseigné.</message>
+        <message id="missing_renderer_ffprobe" lang="en">The FFPROBE binary cannot be blank</message>
+        <message id="missing_renderer_rsync" lang="fr">Le binaire rsync doit être renseigné.</message>
+        <message id="missing_renderer_rsync" lang="en">The rsync binary cannot be blank</message>
+        <message id="php_not_found" lang="fr">Le binaire PHP n'a pas été trouvé sur le serveur distant (renderer).</message>
+        <message id="php_not_found" lang="en">PHP binary could not be found on the remote server (renderer).</message>
+        <message id="php_deprecated" lang="fr">La version PHP installée sur le serveur distant (renderer) n'est pas supportée. (Minimum 
+            requis: 5.3)</message>
+        <message id="php_deprecated" lang="en">The PHP version installed on remote server (renderer) is deprecated. (Min required: 5.3)</message>
+        <message id="missing_module_xml" lang="fr">Le module SimpleXML pour PHP n'est pas activé sur le serveur distant (renderer).</message>
+        <message id="missing_module_xml" lang="en">SimpleXML module for PHP is not enabled on the remote server (renderer).</message>
+        <message id="missing_module_gd" lang="fr">Le module gd pour PHP n'est pas activé sur le serveur distant (renderer).</message>
+        <message id="missing_module_gd" lang="en">gd module for PHP is not enabled on the remote server (renderer).</message>
+        <message id="missing_freetype" lang="fr">FreeType n'est pas activé pour le module GD (PHP) sur le serveur distant (renderer).</message>
+        <message id="missing_freetype" lang="en">FreeType is not enabled for GD module (PHP) on the remote server (renderer).</message>
+        <message id="ffmpeg_not_found" lang="fr">Le binaire FFMPEG n'a pas été trouvé sur le serveur distant (renderer).</message>
+        <message id="ffmpeg_not_found" lang="en">FFMPEG binary could not be found on the remote server (renderer).</message>
+        <message id="missing_codec_aac" lang="fr">Le codec AAC (libfdk_aac) n'est pas installé pour FFMPEG (sélectionnez 'FFMPEG built-in 
+            mode (AAC)' pour continuer sans le codec libfdk_aac)</message>
+        <message id="missing_codec_aac" lang="en">AAC codec (libfdk_aac) is not installed for FFMPEG. Select 'FFMPEG built-in mode 
+            (AAC)' to continue without libfdk_aac codec.</message>
+        <message id="missing_codec_h264" lang="fr">Le codec H.264 (libx264) n'est pas installé pour FFMPEG</message>
+        <message id="missing_codec_h264" lang="en">H.264 codec (libx264) is not installed for FFMPEG</message>
+        <message id="ffprobe_not_found" lang="fr">Le binaire FFPROBE n'a pas été trouvé sur le serveur distant (renderer).</message>
+        <message id="ffprobe_not_found" lang="en">FFPROBE binary could not be found on the remote server (renderer).</message>
+        <message id="ssh_keyscan_error" lang="fr">Impossible de retrouver la clé publique SSH du serveur distant (renderer).</message>
+        <message id="ssh_keyscan_error" lang="en">Could not retrieve SSH public key from remote server (renderer).</message>
+        <message id="cannot_ssh_recorder" lang="fr">Impossible d'ouvrir une connection ssh avec le recorder. Vérifiez authorized_keys 
+            sur le recorder 
+            et $recorder_user dans le fichier de configuration commun du serveur</message>
+        <message id="cannot_ssh_recorder" lang="en">Cannot open ssh connection with the recorder. Check authorized_keys file in recorder 
+            and $recorder_user in server common config file.</message>
+        <message id="ssh_known_hosts_error" lang="fr">Impossible d'ajouter la clé publique SSH du serveur distant (renderer) au fichier 
+            'known_hosts'.</message>
+        <message id="ssh_known_hosts_error" lang="en">Could not add SSH public key from remote server (renderer) to the 
+            'known_hosts' file.</message>
+            <message id="ssh_hostname_error" lang="fr">l'adresse du renderer est incorrete</message>
+        <message id="ssh_hostname_error" lang="en">Incorrect renderer address</message>
+        <message id="ssh_connection_failed" lang="fr">Impossible d'établir une connection SSH avec le serveur distant (renderer) 
+            &lt;?php echo $_SESSION['renderer_address'];?&gt;. Vérifiez que l'adresse du renderer et le nom d'utilisateur sont corrects et 
+            que vous avez bien copié la clé SSH dans le fichier 'authorized_keys' du renderer.</message>
+        <message id="ssh_connection_failed" lang="en">Could not connect via SSH to the remote renderer 
+            &lt;?php echo $_SESSION['renderer_address'];?&gt;. Verify that the renderer address and username are correct and that you 
+            have correctly added SSH key in the 'authorized_keys' file of the remote renderer.</message>
+        <message id="missing_forename" lang="fr">Le prénom ne peut pas être vide.</message>
+        <message id="missing_forename" lang="en">The forename cannot be blank.</message>
+        <message id="missing_surname" lang="fr">Le nom ne peut pas être vide.</message>
+        <message id="missing_surname" lang="en">The surname cannot be blank.</message>
+        <message id="root_already_exists" lang="fr">Il y a déjà une version d'EZrenderer installée sur le serveur distant (renderer). 
+            Veuillez la désinstaller avant de réessayer.</message>
+        <message id="root_already_exists" lang="en">There is already a version of EZrenderer on the remote server (renderer). Please 
+            uninstall it before retrying.</message>
+        <message id="renderer_copy_failed" lang="fr">La copie des fichiers d'installation d'EZrenderer a échoué. Vérifiez les permissions 
+            du répertoire de destination et réessayez.</message>
+        <message id="renderer_copy_failed" lang="en">Failed to copy EZrenderer installation files. Verify file permissions on destination 
+            directory and retry</message>
+        <message id="load_step_4_copy_success" lang="fr">Fichiers d'installation d'EZrenderer copiés avec succès !</message>
+        <message id="load_step_4_copy_success" lang="en">EZrenderer installation files successfully copied !</message>
+        <message id="load_step_4_install" lang="fr">Installation d'EZrenderer en cours ...</message>
+        <message id="load_step_4_install" lang="en">Installing EZrenderer ...</message>
+        <message id="renderer_install_failed" lang="fr">L'installation de EZrenderer a échoué. Vérifiez les permissions sur le fichier 
+            'renderer_install.php' et réessayez.</message>
+        <message id="renderer_install_failed" lang="en">Failed to install EZrenderer. Verify file permissions on 'renderer_install.php' 
+            and retry</message>
+        <message id="load_step_4_install_success" lang="fr">EZrenderer installé avec succès !</message>
+        <message id="load_step_4_install_success" lang="en">EZrenderer successfully installed !</message>
+        <message id="load_step_4_update" lang="fr">Mise a jour de la liste des renderers pour EZadmin et EZrenderer ...</message>
+        <message id="load_step_4_update" lang="en">Updating renderers list for EZadmin and EZmanager ...</message>
+        <message id="renderer_update_failed" lang="fr">Impossible d'ajouter le renderer à la liste des renderers. Vérifiez 
+            les permissions sur les fichiers 'renderers.inc' des dossiers EZadmin et EZmanager.</message>
+        <message id="renderer_update_failed" lang="en">Failed to add the renderer to renderers list. Verify permissions on 
+            'renderers.inc' files in EZadmin and EZmanager directories.</message>
+        <message id="load_step_4_update_success" lang="fr">Liste des renderers mise à jour avec succès !</message>
+        <message id="load_step_4_update_success" lang="en">Renderers list successfully updated !</message>
+        <message id="load_step_4_update_failed" lang="fr">La copie du fichier 'renderers.inc' vers EZmanager a échoué.</message>
+        <message id="load_step_4_update_failed" lang="en">Failed to copy 'renderers.inc' file from EZadmin to EZmanager.</message>
+        
+        <!-- Success -->
+        <message id="save_successful" lang="fr">Changements sauvegardés</message>
+        <message id="save_successful" lang="en">Saved changes</message>
+    </messages>
+    
+    <!-- update 2016/07/15 -->
+    <!-- information customized by organisation -->   
+    <infos>
+        <info id="developed_by" organization="© Université libre de Bruxelles" lang="fr">
+            &lt;a target="_blank" href="http://ezcast.ulb.ac.be" &gt;EZcast&lt;/a&gt; est une solution propulsée par 
+            &lt;a target="_blank" href="http://podcast.ulb.ac.be"&gt;ULB Podcast&lt;/a&gt;</info>
+        <info id="developed_by" organization="© Université libre de Bruxelles" lang="en">
+            &lt;a target="_blank" href="http://ezcast.ulb.ac.be" &gt;EZcast&lt;/a&gt; is a solution powered by 
+            &lt;a target="_blank" href="http://podcast.ulb.ac.be"&gt;ULB Podcast&lt;/a&gt;</info>
+        <info id="developed_by" organization="© Université Catholique de Louvain" lang="fr">
+            &lt;a href="http://ezcast.uclouvain.be" &gt;UCL Podcast&lt;/a&gt; est une solution propulsée par 
+            &lt;a href="http://ezcast.ulb.ac.be"&gt;EZcast&lt;/a&gt;</info>
+        <info id="developed_by" organization="© Université Catholique de Louvain" lang="en">
+            &lt;a href="http://ezcast.uclouvain.be" &gt;UCL Podcast&lt;/a&gt; is a solution powered by 
+            &lt;a href="http://ezcast.ulb.ac.be"&gt;EZcast&lt;/a&gt;</info>
+        <info id="developed_by" organization="© Your organization name" lang="fr">
+            &lt;a href="http://ezcast.ulb.ac.be" &gt;EZcast&lt;/a&gt; est une solution propulsée par 
+            &lt;a href="http://podcast.ulb.ac.be"&gt;ULB Podcast&lt;/a&gt;</info>
+        <info id="developed_by" organization="© Your organization name" lang="en">
+            &lt;a href="http://ezcast.ulb.ac.be" &gt;EZcast&lt;/a&gt; is a solution powered by 
+            &lt;a href="http://podcast.ulb.ac.be"&gt;ULB Podcast&lt;/a&gt;</info>
+        <info id="organization" organization="© Université libre de Bruxelles" lang="fr">ULB Podcast</info>
+        <info id="organization" organization="© Université libre de Bruxelles" lang="en">ULB Podcast</info>
+        <info id="organization" organization="© Université Catholique de Louvain" lang="fr">UCL Podcast</info>
+        <info id="organization" organization="© Université Catholique de Louvain" lang="en">UCL Podcast</info>
+        <info id="organization" organization="© Your organization name" lang="fr">Your organization Podcast</info>
+        <info id="organization" organization="© Your organization name" lang="en">Your organization Podcast</info>
+    </infos>
+</data>
