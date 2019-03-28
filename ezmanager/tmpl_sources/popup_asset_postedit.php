@@ -111,16 +111,67 @@
 
       </tbody>
     </table>
-
+<input type="button" class="btn centered" id="testThisShit" name="" value="testThisShit">
 </div>
 <input type="hidden" id="data">
 <input type="hidden" id="preview" value="0">
+<input type="hidden" id="fusionValue"value="">
 <div class="modal-footer">
   <button type="button" class="btn btn-default" data-dismiss="modal">®Update®</button>
   <button type="button" class="btn btn-default" data-dismiss="modal">®Cancel®</button>
 </div>
+<div class="modal fade" id="cutsFusionModal" tabindex="-1" role="dialog" aria-labelledby="cutsFusionModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id=""></h4>
+      </div>
+      <div class="modal-body">
+          <div class="container container-relative">
+              <div class="row centered">
+                  <p>Vous etes sur le point de fusionner</p>
+              </div>
+              <div class="row centered">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>cutNumber</th>
+                        <th>Start</th>
+                        <th>end</th>
+                      </tr>
+                    </thead>
+                    <tbody id="curCutBody">
 
+                    </tbody>
+                  </table>
+              </div>
+              <div class="row centered">
+                  <p>Avec les coupures deja existantes suivantes</p>
+              </div>
+              <div class="row centered">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>cutNumber</th>
+                        <th>Start</th>
+                        <th>end</th>
+                      </tr>
+                    </thead>
+                    <tbody id="cutFusionBody">
 
+                    </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" id="cutsFusionValid">for now Close</button>
+        <button type="button" class="btn" id="cutsFusionCancel">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <script>
 //video INIT
 
@@ -145,6 +196,14 @@
             updateCutTable(json.cutArray);
     //end initialisation
         });
+    // $('#myModal').on('shown.bs.modal', function () {
+    //     console.log("there");
+    //     initJSON(duration,array,firstCut);
+    //     var json=JSON.parse($("#data").val());
+    //     initSlider(json.duration,json.cutArray,json.curCut);
+    //     setInputsMinMax();
+    //     updateCutTable(json.cutArray);
+    // }),
     $("#cutStart").on('change', function() {
         var start=parseFloat($("#cutStart").val());
         var stop=parseFloat($("#cutStop").val());
@@ -305,6 +364,12 @@
              $("#preview").val("0");
         }
     });
+    $("#cutsFusionModal").on('shown.bs.modal', function(event) {
+        console.log("modal show");
+        var json=JSON.parse($("#data").val());
+        var fusionJson=JSON.parse($("#fusionValue").val());
+        updateFusionTable(json.curCut,fusionJson.cutFusionArray);
+    });
     $("#cutValid").on('click', function() {
         console.log("appel");
         var test = false;
@@ -322,25 +387,41 @@
             }
             console.log(intersectedCut);
             if (intersectedCut.length!=0) {
-                for (var i = 0; i < intersectedCut[0]; i++) {
-                    tArray.push(json.cutArray[i]);
+                // for (var i = 0; i < intersectedCut.length; i++) {
+                //     tArray.push(json.cutArray[intersectedCut[i]]);
+                // }
+                // updateFusionTable(json.curCut,tArray);
+
+                var fusionJson=JSON.parse('{"cutFusionArray":[]}');
+                for (var i = 0; i < intersectedCut.length; i++) {
+                    var curTArray=[intersectedCut[i],json.cutArray[intersectedCut[i]][0],json.cutArray[intersectedCut[i]][1]];
+                    fusionJson.cutFusionArray.push(curTArray);
+
                 }
-                var cutToValid=[];
-                if (json.curCut[0]<json.cutArray[intersectedCut[0]][0]) {
-                    cutToValid.push(json.curCut[0]);
-                }else{
-                    cutToValid.push(json.cutArray[intersectedCut[0]][0]);
-                }
-                if (json.curCut[1]>json.cutArray[intersectedCut[(intersectedCut.length-1)]][1]) {
-                    cutToValid.push(json.curCut[1]);
-                } else {
-                    cutToValid.push(json.cutArray[intersectedCut[(intersectedCut.length-1)]][1]);
-                }
-                tArray.push(cutToValid);
-                for (var i = (intersectedCut[(intersectedCut.length-1)]+1); i < json.cutArray.length; i++) {
-                    tArray.push(json.cutArray[i]);
-                }
-                console.log(tArray);
+                console.log("json fusion");
+                console.log(fusionJson);
+                $("#fusionValue").val(JSON.stringify(fusionJson));
+
+                $("#cutsFusionModal").modal();
+                // for (var i = 0; i < intersectedCut[0]; i++) {
+                //     tArray.push(json.cutArray[i]);
+                // }
+                // var cutToValid=[];
+                // if (json.curCut[0]<json.cutArray[intersectedCut[0]][0]) {
+                //     cutToValid.push(json.curCut[0]);
+                // }else{
+                //     cutToValid.push(json.cutArray[intersectedCut[0]][0]);
+                // }
+                // if (json.curCut[1]>json.cutArray[intersectedCut[(intersectedCut.length-1)]][1]) {
+                //     cutToValid.push(json.curCut[1]);
+                // } else {
+                //     cutToValid.push(json.cutArray[intersectedCut[(intersectedCut.length-1)]][1]);
+                // }
+                // tArray.push(cutToValid);
+                // for (var i = (intersectedCut[(intersectedCut.length-1)]+1); i < json.cutArray.length; i++) {
+                //     tArray.push(json.cutArray[i]);
+                // }
+                // console.log(tArray);
             }else{
                 var inserted = false;
                 for (var i = 0; i < json.cutArray.length; i++) {
@@ -354,15 +435,16 @@
                     tArray.push(json.curCut);
                 }
                 console.log(tArray);
+                json.cutArray=tArray;
+                json.curCut=[0,json.duration]
+                myJson=JSON.stringify(json);
+                $("#data").val(myJson);
+                setInputValue(json.curCut);
+                $("#cutSlider").slider('destroy');
+                initSlider(json.duration,json.cutArray,json.curCut);
+                updateCutTable(json.cutArray);
             }
-            json.cutArray=tArray;
-            json.curCut=[0,json.duration]
-            myJson=JSON.stringify(json);
-            $("#data").val(myJson);
-            setInputValue(json.curCut);
-            $("#cutSlider").slider('destroy');
-            initSlider(json.duration,json.cutArray,json.curCut);
-            updateCutTable(json.cutArray);
+
         }
     });
     $("#cutSlider-container").on('slide change','#cutSlider', function()
@@ -385,6 +467,49 @@
         setJSONCut($("#cutSlider").slider('getValue'));
         $("#videoSlider").slider('setValue',$("#video_cam")[0].currentTime,true);
     });
+    $("#testThisShit").on('click', function(event) {
+        console.log("right here");
+        $("#cutsFusionModal").modal();
+    });
+    $("#cutsFusionModal").on('click', '.close', function(event) {
+        $("#cutsFusionModal").modal('hide');
+    }).on('click', '#cutsFusionCancel', function(event) {
+        $("#cutsFusionModal").modal('hide');
+    }).on('click', '#cutsFusionValid', function(event) {
+        var json=JSON.parse($("#data").val());
+        var fusionJson=JSON.parse($("#fusionValue").val());
+        var tArray=[];
+        for (var i = 0; i < fusionJson.cutFusionArray[0][0]; i++) {
+            tArray.push(json.cutArray[i]);
+        }
+        var cutToValid=[];
+        if (json.curCut[0]<json.cutArray[fusionJson.cutFusionArray[0][0]][0]) {
+            cutToValid.push(json.curCut[0]);
+        }else{
+            cutToValid.push(json.cutArray[fusionJson.cutFusionArray[0][0]][0]);
+        }
+        if (json.curCut[1]>json.cutArray[fusionJson.cutFusionArray[(fusionJson.cutFusionArray.length-1)][0]][1]) {
+            cutToValid.push(json.curCut[1]);
+        } else {
+            cutToValid.push(json.cutArray[fusionJson.cutFusionArray[(fusionJson.cutFusionArray.length-1)][0]][1]);
+        }
+        tArray.push(cutToValid);
+        for (var i = (fusionJson.cutFusionArray[(fusionJson.cutFusionArray.length-1)][0]+1); i < json.cutArray.length; i++) {
+            tArray.push(json.cutArray[i]);
+        }
+
+
+        console.log(tArray);
+        json.cutArray=tArray;
+        json.curCut=[0,json.duration]
+        myJson=JSON.stringify(json);
+        $("#data").val(myJson);
+        setInputValue(json.curCut);
+        $("#cutSlider").slider('destroy');
+        initSlider(json.duration,json.cutArray,json.curCut);
+        updateCutTable(json.cutArray);
+        $("#cutsFusionModal").modal('hide');
+    })
 
 })();
 
@@ -467,12 +592,21 @@ function updateCutSliderBackground(array)
     return tArray;
 }
 
-function updateCutTable(array) {
+function updateCutTable(array,tableField) {
     $("#cutTableBody").empty();
     for(i=0;i<array.length;i++){
       var cutNb=(i+1);
       $("#cutTableBody").append("<tr><td>"+cutNb+"</td><td>"+array[i][0]+"</td><td>"+array[i][1]+"</td><td><button type='button' id='modBtn"+i+"' class='btn modBtn'><i class='glyphicon glyphicon-edit'></i></button></td><td><button type='button' id='delBtn"+i+"' class='btn delBtn'><i class='glyphicon glyphicon-remove-sign'></i></button></td></tr>");
 
+    }
+}
+function updateFusionTable(curCutArray,cutFusionArray) {
+    $("#curCutBody").empty();
+    $("#cutFusionBody").empty();
+    $("#curCutBody").append("<tr><td>current cut</td><td>"+curCutArray[0]+"</td><td>"+curCutArray[1]+"</td></tr>");
+    for(i=0;i<cutFusionArray.length;i++){
+        var cutNb=((cutFusionArray[i][0])+1);
+        $("#cutFusionBody").append("<tr><td>"+cutNb+"</td><td>"+cutFusionArray[i][1]+"</td><td>"+cutFusionArray[i][2]+"</td></tr>");
     }
 }
 
